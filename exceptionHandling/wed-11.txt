@@ -1,0 +1,56 @@
+Exception Handling:
+
+
+- Exception Handling is a mechanism to handle runtime errors.
+
+
+- Error which is thrown at run-time (which disturbs the normal flow of the program).
+
+
+- two types * checked
+		* unchecked
+		* error(according to oracle)
+
+
+- checked : The classes that directly inherit the Throwable class except RuntimeException and Errors
+
+		Are checked at compile-time.
+
+		eg: IOException, SQLException etc.
+
+
+- unchecked : The classes that inherit the RuntimeException.
+
+		  Are not checked at compile-time, but checked at runtime.
+
+		  eg: ArithmeticException, NullPointerException, ArrayIndexOutOfBoundsException etc.
+
+
+- keywords to handle exception.
+
+	* try : (Keyword) used to specify a block to write risky lines of exception within a method.
+
+              we can't use try block alone.
+		  
+		  try block must be followed by either catch or finally.
+
+
+	* catch : Used to handle the exception.
+
+		    can use multiple catch block in single try block.
+
+		    can't use catch block alone.
+
+		    Then followed by finally block.
+	
+	* finally : Used to execute the necessary code of the program.
+			
+			To check whether an exception is handled or not.
+
+
+	* throw : (keyword) used to throw an exception.
+
+	
+	* throws : (keyword) used to declare exceptions. 
+
+		     occur an exception in the method.
